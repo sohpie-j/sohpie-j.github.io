@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KyungA Jang<</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="contact-page">
+    <div class="wrap">
+        <div class="Contacts_intro">
+            <div class="header" id="link_header">
+                <div class="search_area">
+                    <form class="search_input">
+                        <input type="search" placeholder="Search">
+                        <span>Search</span>
+                    </form>
+                </div>
+                <ul class="nav_contacts">
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="Contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> <!--wrap exit-->
+
+    <div class="contact_body">
+        <div class="form-container">
+            <div>
+                <form class="visitor-form" action="/submit_form" method="post">
+                    <div class="contacts_title">Contact Details</div>
+                        <div class="subtext1">jang0041@algonquinalive.com</div>
+                            <div class="icon_phone">
+                                <div class="subtext2"><img src="image/icons8-phone-50.png" alt=""></div>
+                                <div>(613)408-3767</div>
+                            </div>
+                    <div>
+                        <ul>
+                            <li class="subtext1">Instagram</li>
+                            <li class="subtext2"><a href="https://www.instagram.com/i.am.kyunga/">
+                                <img src="image/icons8-instagram-50.png" alt="">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="subtext1">Computer Programming co-op <br> at Algonquin</li>
+                            <li class="subtext2"><a href="https://www.algonquincollege.com/sat/program/computer-programming/">
+                            <img src="image/icons8-school-50.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <form class="visitor-form" action="/submit_another_form" method="post">
+                    <div class="contacts_title">Visitor Feedback Form</div>
+                    <label for="name2">Name:</label>
+                    <input type="text" id="name2" name="name2" required><br><br>
+                    
+                    <label for="email2">Email:</label>
+                    <input type="email" id="email2" name="email2" required><br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div> <!--contact body exit-->
+    <footer class="contact_footer">
+        <div>
+            KyungA Jang
+        </div>
+        <div>
+            Computer Programming Department at Algoquin College
+            <br>(613)727-4723
+        </div>
+    </footer>
+</body>

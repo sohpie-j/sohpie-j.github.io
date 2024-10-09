@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #c6a486;
+    --secondary-color: #e5eaf5;
+    --accent-color: #49a078;
+    --text-color: #494949;
+    --button-text-color:#e5eaf5;
+    --background-color: #ffffff;
+    --footer-color:#4a4e69;
+}
+
+/**********************************************/
+/*** resume.html ***********************************/
+
+/* resume_intro */
+.resume_intro {
+    background-color: #4A4E69;
+    width: 100%;
+    height:86
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.sidebar, .main-content {
+    background-color: var(--background-color);
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info i {
+    margin-right: 0.5rem;
+    color: var(--accent-color);
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills li {
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 1.5rem;
+}
+
+.experience-item h3, .education-item h3 {
+    color: var(--accent-color);
+    margin-bottom: 0.25rem;
+}
+
+.experience-item p, .education-item p {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+}
+
+.experience-item ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.experience-item li::before {
+    content: "•";
+    color: var(--accent-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--footer-color);
+    color: #fff;
+}
