@@ -108,6 +108,13 @@ footer {
     color: #fff;
 }
 
+.project-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* The image will not be larger than 400px */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
 /*****************************************************/
 
 .project-display {

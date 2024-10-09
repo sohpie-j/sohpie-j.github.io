@@ -189,7 +189,7 @@ function updateProjectDisplay() {
             <h3>${project.title}</h3>
             <p>${project.description}</p>
             <p><strong>${project.date}</strong></p>
-            <img src="${project.image}" alt="${project.title}">
+            <img src="${project.image}" alt="${project.title}" class="project-image">
             <h4>Technologies Used:</h4>
             <ul class="technologies">
                 ${project.technologies.map(tech => `<li>${tech}</li>`).join('')}
