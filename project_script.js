@@ -84,12 +84,19 @@
 const projects = {
     webprogramming: [
         {
-            title: "Interactive Webpage",
-            description: "Two web pages for introducing the author's hometown.",
-            date: "Completed: April 2024",
-            technologies: ["HTML"],
-            image: "image/homeplace.png",
-            features: ["linking two html", "making the form for text input", "Responsive layout using CSS Grid and Flexbox"]
+            title: "Online Food Recipe Website",
+            description: "An interactive web application that allows users to register, log in, and store their own recipes.",
+            date: "Completed: July 2024",
+            technologies: ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
+            image: "images/myfoodrecipe.png",
+            features: [
+                "User registration and login",
+                "Storing individual recipes",
+                "Responsive layout using CSS Grid and Flexbox",
+                "Interactive forms for recipe input",
+                "Recipe search and filtering",
+                "Real-time updates using JavaScript"
+            ]
         },
         {
             title: "Registration Form",
@@ -98,6 +105,15 @@ const projects = {
             technologies: ["HTML", "CSS"],
             image: "image/registration.png",
             features: ["Grid, Span, Form, Table", "CSS", "Input for textarea"]
+        },
+
+        {
+            title: "Interactive Webpage",
+            description: "Two web pages for introducing the author's hometown.",
+            date: "Completed: April 2024",
+            technologies: ["HTML"],
+            image: "image/homeplace.png",
+            features: ["linking two html", "making the form for text input", "Responsive layout using CSS Grid and Flexbox"]
         }
     ],
     database: [
