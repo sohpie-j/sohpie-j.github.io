@@ -88,7 +88,7 @@ const projects = {
             description: "An interactive web application that allows users to register, log in, and store their own recipes.",
             date: "Completed: July 2024",
             technologies: ["HTML", "CSS", "JavaScript", "PHP", "SQL"],
-            image: "images/myfoodrecipe.png",
+            image: "image/myfoodrecipe.png",
             features: [
                 "User registration and login",
                 "Storing individual recipes",
